@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+happymimi_navigation/__init__.py
+happymimi_navigation/navi_main.py
+happymimi_navigation.egg-info/PKG-INFO
+happymimi_navigation.egg-info/SOURCES.txt
+happymimi_navigation.egg-info/dependency_links.txt
+happymimi_navigation.egg-info/entry_points.txt
+happymimi_navigation.egg-info/requires.txt
+happymimi_navigation.egg-info/top_level.txt
+happymimi_navigation.egg-info/zip-safe
+resource/happymimi_navigation

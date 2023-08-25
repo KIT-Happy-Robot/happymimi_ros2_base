@@ -1,0 +1,3 @@
+[console_scripts]
+navi_main = happymimi_navigation.navi_main:main
+

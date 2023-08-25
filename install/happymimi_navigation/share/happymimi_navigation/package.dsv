@@ -1,0 +1,9 @@
+source;share/happymimi_navigation/hook/pythonpath.ps1
+source;share/happymimi_navigation/hook/pythonpath.dsv
+source;share/happymimi_navigation/hook/pythonpath.sh
+source;share/happymimi_navigation/hook/ament_prefix_path.ps1
+source;share/happymimi_navigation/hook/ament_prefix_path.dsv
+source;share/happymimi_navigation/hook/ament_prefix_path.sh
+source;../../build/happymimi_navigation/share/happymimi_navigation/hook/pythonpath_develop.ps1
+source;../../build/happymimi_navigation/share/happymimi_navigation/hook/pythonpath_develop.dsv
+source;../../build/happymimi_navigation/share/happymimi_navigation/hook/pythonpath_develop.sh

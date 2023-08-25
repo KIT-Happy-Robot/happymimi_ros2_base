@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating happymimi_navigation.egg-info
+writing happymimi_navigation.egg-info/PKG-INFO
+writing dependency_links to happymimi_navigation.egg-info/dependency_links.txt
+writing entry points to happymimi_navigation.egg-info/entry_points.txt
+writing requirements to happymimi_navigation.egg-info/requires.txt
+writing top-level names to happymimi_navigation.egg-info/top_level.txt
+writing manifest file 'happymimi_navigation.egg-info/SOURCES.txt'
+reading manifest file 'happymimi_navigation.egg-info/SOURCES.txt'
+writing manifest file 'happymimi_navigation.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/lib/python3.10/site-packages/happymimi-navigation.egg-link (link to .)
+Installing navi_main script to /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/lib/happymimi_navigation
+
+Installed /home/ubuntu/happymimi_ros2_base/build/happymimi_navigation
+running install_data
+creating /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/share/ament_index
+creating /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/share/ament_index/resource_index
+creating /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/share/ament_index/resource_index/packages
+copying resource/happymimi_navigation -> /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/share/ament_index/resource_index/packages
+copying package.xml -> /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/share/happymimi_navigation
