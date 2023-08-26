@@ -1,1 +1,0 @@
-/home/ubuntu/happymimi_ros2_base/src/megarover3_ros2/megarover3_bringup/launch/mouse_teleop.launch.py

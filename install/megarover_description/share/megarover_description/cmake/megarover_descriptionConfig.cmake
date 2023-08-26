@@ -1,1 +1,0 @@
-/home/ubuntu/happymimi_ros2_base/build/megarover_description/ament_cmake_core/megarover_descriptionConfig.cmake
