@@ -1,0 +1,1 @@
+/home/ubuntu/happymimi_ros2_base/build/megarover3_bringup/ament_cmake_environment_hooks/local_setup.bash
