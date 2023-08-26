@@ -1,0 +1,17 @@
+[0.941s] Invoking command in '/home/ubuntu/happymimi_ros2_base/build/happymimi_navigation': PYTHONPATH=/home/ubuntu/happymimi_ros2_base/build/happymimi_navigation/prefix_override:/home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/happymimi_ros2_base/build/happymimi_navigation/build --no-deps install_data
+[1.339s] running develop
+[1.575s] running egg_info
+[1.576s] writing happymimi_navigation.egg-info/PKG-INFO
+[1.576s] writing dependency_links to happymimi_navigation.egg-info/dependency_links.txt
+[1.576s] writing entry points to happymimi_navigation.egg-info/entry_points.txt
+[1.576s] writing requirements to happymimi_navigation.egg-info/requires.txt
+[1.577s] writing top-level names to happymimi_navigation.egg-info/top_level.txt
+[1.578s] reading manifest file 'happymimi_navigation.egg-info/SOURCES.txt'
+[1.579s] writing manifest file 'happymimi_navigation.egg-info/SOURCES.txt'
+[1.581s] running build_ext
+[1.581s] Creating /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/lib/python3.10/site-packages/happymimi-navigation.egg-link (link to .)
+[1.582s] Installing navi_main script to /home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/lib/happymimi_navigation
+[1.582s] 
+[1.582s] Installed /home/ubuntu/happymimi_ros2_base/build/happymimi_navigation
+[1.582s] running install_data
+[1.614s] Invoked command in '/home/ubuntu/happymimi_ros2_base/build/happymimi_navigation' returned '0': PYTHONPATH=/home/ubuntu/happymimi_ros2_base/build/happymimi_navigation/prefix_override:/home/ubuntu/happymimi_ros2_base/install/happymimi_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ubuntu/happymimi_ros2_base/build/happymimi_navigation/build --no-deps install_data
