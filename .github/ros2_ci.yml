@@ -1,15 +1,15 @@
-name: build and test
+name: ROS2 build and Test
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
-  schedule:
-    - cron: '0 0 * * *'
-  release:
-    types: [published]
+    schedule:
+      - cron: '0 0 * * *'
+    release:
+      types: [published]
 
 jobs:
   build_and_test:
@@ -19,7 +19,7 @@ jobs:
           - ubuntu-22.04
         rosdistro:
           - humble
-
+    
     runs-on: ubuntu-latest
 
     container:
@@ -27,37 +27,37 @@ jobs:
 
     steps:
       - name: Setup directories
-        run: mkdir -p happymimi_ros2_base/src
-        
-      - name: Check out repository
+        run: mkdir -p ros2_ws/src
+
+      - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          path: happymimi_ros2_base/src/happymimi_navigation
+          path: ros2_ws/src/happymimi_ros2_base
 
-      - name: Install dependencies
+      - name: Install depedencies
         run: |
           rosdep update && 
           apt-get update && 
           rosdep install --from-path . -i -y --rosdistro ${{ matrix.rosdistro }}
-
+        
       - name: Install diagnostic-updater
         run: apt-get install ros-${{ matrix.rosdistro }}-diagnostic-updater
-
-      - name: Build tests
+      
+      - name: Build Tests
         id: build_test
         run: |
           . /opt/ros/${{ matrix.rosdistro }}/setup.sh && 
           colcon build
         continue-on-error: true
-
+      
       - name: build_test command success
         if: steps.build_test.outcome == 'success'
         run: echo "result - success"
-
+      
       - name: build_test command failure
         if: steps.build_test.outcome == 'failure'
         run: echo "result - failure" && exit 1
-
+      
       - name: Run tests
         id: run_test
         run: |
@@ -65,7 +65,7 @@ jobs:
           colcon test && 
           colcon test-result
         continue-on-error: true
-
+      
       - name: run_test command success
         if: steps.run_test.outcome == 'success'
         run: echo "result - success"
@@ -73,3 +73,4 @@ jobs:
       - name: run_test command failure
         if: steps.run_test.outcome == 'failure'
         run: echo "result - failure" && exit 1
+        
